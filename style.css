@@ -3,6 +3,7 @@ body {
   background-image: url(images/webpage-background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
   font-family: 'Krona One', sans-serif;
   color: rgb(187, 187, 187);
 }
@@ -22,9 +23,7 @@ body {
 }
 /*Portrait settings*/
 img {
-  display: block;
   width: 40%;
-  border-radius: 25px;
   margin: auto;
   padding-bottom: 30px;
 }
@@ -48,18 +47,18 @@ h2 {
   text-align: center;
 }
 .header-2 {
-  height: 300px;
+  min-height: 300px;
 }
 .goals {
   text-align: center;
-  height: 575px;
+  min-height: 575px;
 }
 .about {
-  height: 500px;
+  min-height: 500px;
 }
 footer {
   text-align: center;
-  height: 350px;
+  min-height: 350px;
 }
 h1 {
   font-size: 90px;
