@@ -1,0 +1,101 @@
+/*Basic styling for entire webpage*/
+body {
+  background-image: url(images/webpage-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Krona One', sans-serif;
+  color: rgb(187, 187, 187);
+}
+/*Basic layout and settings*/
+.header-1, .header-2, .goals, .about, .contact {
+  background-color: #000000c9;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  width: 900px;
+  margin: auto;
+  border-radius: 25px;
+  line-height: 2;
+  text-indent: 20px;
+  font-weight: bold;
+}
+/*Portrait settings*/
+img {
+  display: block;
+  width: 40%;
+  border-radius: 25px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+/*Individual element Styles*/
+ul {
+  list-style-position: inside;
+}
+ol {
+  list-style-position: inside;
+}
+hr {
+  margin: auto;
+  width: 925px;
+  opacity: 20%;
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+.header-1 {
+  text-align: center;
+}
+.header-2 {
+  height: 300px;
+}
+.goals {
+  text-align: center;
+  height: 575px;
+}
+.about {
+  height: 500px;
+}
+footer {
+  text-align: center;
+  height: 350px;
+}
+h1 {
+  font-size: 90px;
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+h3 {
+  text-align: center;
+  font-size: 26px;
+}
+h4 {
+  font-size: 19px;
+}
+h5{
+  font-size: 20px;
+}
+p {
+  font-size: 15px;
+
+}
+ul {
+  font-size: 16px;
+}
+a {
+  font-size: 20px;
+}
+/*link Styles*/
+a:link    { 
+  color: blue;  
+}
+a:visited { 
+  color: brown;
+}
+a:hover   { 
+  color: lightgray;
+  text-decoration: line-through;
+}
+a:active  { 
+  color: red;  
+}
